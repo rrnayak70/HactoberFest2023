@@ -1,0 +1,39 @@
+.container{
+    background:antiquewhite;
+    border-radius: 20px;
+    border: double;
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+.alignCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: silver;
+}
+
+li:active{
+    background-color:cornflowerblue;
+}
+
+li{
+    margin: 10px;
+    background-color: silver;
+    padding: 20px;
+    font-size: 16pt;
+    margin: 15px;
+}
+
+#ulTasks li.disabled{
+    text-decoration: line-through;
+    color:blue;
+}
+
